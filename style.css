@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(248, 231, 201);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1; 
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+img{
+    width: 250px;
+    height: auto;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.ilkkisim,.footer,header{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+
+a:visited{
+    color:#f9faf8
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: #3882F6;
+    border-radius: 10%;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: wheat;
+    color: #3882F6;
+}
+
+.cta{
+    background-color: #3882F6;
+    color: white;
+}
+
+.cta-buton{
+    font-size: 20px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+    border-left: 4px solid #ccc;
+}
+
+.footer{
+    text-align: center;
+}
+
+/* Flexbox: */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+.ilkkisim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.ilkkisim img {
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.ilkkisim button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+.cta{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+}
+
+.quote blockquote{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes content to top and bottom */
+}
+
+.quote footer {
+    align-self: flex-end;
+}
