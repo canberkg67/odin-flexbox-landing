@@ -126,7 +126,7 @@ nav ul {
 .quote blockquote{
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Pushes content to top and bottom */
+    justify-content: space-between;
 }
 
 .quote footer {
