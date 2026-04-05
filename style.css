@@ -17,7 +17,7 @@ html, body {
 
 
 img{
-    width: 250px;
+    width: 270px;
     height: auto;
 }
 
@@ -52,15 +52,17 @@ button{
 
 button:hover{
     background-color: wheat;
-    color: #3882F6;
+    color: #1F2937;
 }
 
 .cta{
-    background-color: #3882F6;
+    background-color: #303f56;
     color: white;
 }
 
 .cta-buton{
+    width: 100px;
+    height: 40px;
     font-size: 20px;
 }
 
@@ -72,6 +74,7 @@ button:hover{
     max-width: 600px;
     margin: 20px auto;
     border-left: 4px solid #ccc;
+    font-size: 18px;
 }
 
 .footer{

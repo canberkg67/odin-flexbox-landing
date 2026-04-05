@@ -1,2 +1,9 @@
 # Flexbox ile Landing Page Örneği (Odin Project)
-Semantik HTML elementleri ve CSS Flexbox ile kodlanmış klasik bir ticaret sitesi landing page template'i.
+---
+CSS ile hazırlanmış klasik bir ticaret sitesi landing page örneği.
+
+Kullanılanlar:
+- Semantik HTML elementleri
+- CSS Flexbox
+- CTA 
+- Google Fonts
